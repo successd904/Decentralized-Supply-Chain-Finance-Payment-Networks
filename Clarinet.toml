@@ -5,8 +5,9 @@ authors = []
 telemetry = true
 cache_dir = './.cache'
 requirements = []
-[contracts.finance-coordinator]
-path = 'contracts/finance-coordinator.clar'
+
+[contracts.payment-processor]
+path = 'contracts/payment-processor.clar'
 clarity_version = 2
 epoch = 2.5
 [repl.analysis]
